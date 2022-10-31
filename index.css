@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&family=Poppins:wght@100&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, sans-serif;
+  box-sizing: border-box;
+  
+}
+
+header {
+
+  height: 80px;
+  color: white;
+  background-color: white;
+  
+  
+  
+  }
+
+header .logo {
+  float: right;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 35px;
+  font-family: sans-serif;
+  margin-top: 15px;
+  color: black;
+  margin-right: 20px;
+
+}
+
+.logo:hover {
+  color: tomato;
+  transition: 0.3s;
+}
+
+header ul {
+  margin-left:  10px;
+  display: flex;
+  column-gap: 20px;
+  justify-content: left;
+  
+}
+
+header ul li {
+  list-style: none;
+  margin-top: 20px;
+  padding: 5px 5px 5px 5px;
+  margin-left: 10px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
+li:hover {
+  background-color: #d88ffd;
+  border-radius: 5px;
+  padding: 5px 5px 5px 5px;
+  transition: 0.5s;
+  font-family: 1000;
+  translate: 10px;
+}
+
+
+section.welcometext {
+  margin-top: 300px;
+  font-size: 100px;
+  
+}
+
+img.hand {
+  height: 80vw;
+  width: 80vw;
+}
+
+
+.parallax {
+  /* The image used  */
+  background-image: url("hellothere.png");
+background-color: white;
+color: black;
+font-size: 100px;
+ 
+ 
+ 
+ 
+
+  /* Set a specific height */
+  min-height: 1000px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.mainbody {
+  height:1000px;
+  
+  font-size:36px;
+}
+
+
+.rocket {
+
+  height: 100px;
+}
+
+.mywork {
+  background-color: rgb(255, 0, 255);
+  color: black;
+  height: 1000px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+
+
+
+.myworktxt {
+  font-family: 'Nanum Brush Script', cursive;
+  background-color:  rgb(255, 0, 255);
+  font-size: 100px;
+  
+  padding-bottom: 200px;
+  color: black;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  
+  padding: 0px 10px;
+  
+}
+
+/* Remove extra left and right margins, due to padding */
+.row1 {margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+  background-color:  rgb(255, 0, 255);
+  
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 100px;
+    
+    background-color:  rgb(255, 0, 255);
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 5px 5px 15px 1px rgb(46, 46, 46);
+  background-color: white;
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  justify-content: center;
+  text-align: center;
+  height: 400px;
+}
+.main_body_after_gradient {
+  background-color:  rgb(255, 0, 255);
+}
+
+.card:hover{
+  
+  transition: 0.4s;
+  translate: 0px -40px;
+  border-color: yellow;
+  border-radius: 20px;
+  
+
+}
+
+hr {
+  background-color: black;
+  border-radius: 20px;
+  border-color: black;
+  margin-top: 200px;
+  color: black;
+  height: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+section.aboutme {
+  background: linear-gradient(rgb(255, 0, 255),  black);
+
+}
+
+.aboutmeonly {
+  transform: scale(0.9);
+  border-radius: 20px;
+}
+
+.aboutmeonly:hover {
+  transform: scale(0.95);
+  transition: 0.5s;
+}
